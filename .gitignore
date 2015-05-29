@@ -1,0 +1,26 @@
+# Must be in root folder of project tracked by Git
+#
+# Comment lines begin with #, blank lines are skipped
+#
+# Can use very basic regular expressions
+#   * ? [aeiou] [0-9]
+#
+# Negate expressions with !
+#   *.php (ignore all files ending with ".php")
+#   !index.php (do NOT ignore "index.php")
+#
+# Ignore all files in a directory with a trailing slash
+#   assets/videos/
+
+tempfile.txt
+.DS_Store
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+assets/videos/
+!assets/videos/tour_*.mp4
+
+# Question: would log/archive/access.log be ignored?  No. (* is a wildcard for filenames only)
+
