@@ -13,6 +13,7 @@
 #   assets/videos/
 
 tempfile.txt
+tempfile2.txt
 .DS_Store
 *.zip
 *.gz
